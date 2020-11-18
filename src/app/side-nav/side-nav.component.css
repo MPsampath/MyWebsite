@@ -1,0 +1,36 @@
+.sidenav-container {
+  height: 100%;
+  background-color: black;
+}
+
+.sidenav {
+  width: 300px;
+  background-color: cadetblue;
+}
+
+.sidenav .mat-toolbar {
+  background: inherit;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.myimage{
+  height: 205px;
+  width: 200px;
+  border-radius: 50%;
+  border: 2px solid #ddd;
+  padding: 1px;
+  width: 200px;
+}
+.myimage:hover{
+  box-shadow: 0 0 5px 4px rgba(243, 207, 3, 0.5);
+}
+.imagediv{
+  padding-left: 50px;
+}
+mat-nav-list{
+  padding-left: 100px;
+}
