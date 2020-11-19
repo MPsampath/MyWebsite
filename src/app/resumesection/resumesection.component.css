@@ -1,0 +1,61 @@
+.resume-section{
+    padding-top: 3rem!important;
+    padding-bottom: 3rem!important;
+    padding: 3rem!important;
+  }
+  .mb-0{
+    text-transform: uppercase;
+    font-family: inherit;
+    font-weight: 700;
+    color: black;
+    font-size: 4rem;
+    line-height: 3.5rem;
+  }
+  .text-primary{
+    color: rgb(15, 167, 194);
+    padding-left: 0;
+  }
+  .subheading{
+    font-family: inherit;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-size: 1rem;
+    margin-top: 0!important;
+  }
+  .subheading a{
+    font-family: unset;;
+    color: rgb(15, 167, 194);
+    text-transform: uppercase;
+  }
+  .social-icons a {
+    display: inline-block;
+    height: 3rem;
+    width: 3rem;
+    background-color: #495057;
+    color: #fff!important;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+    margin-right: 1rem;
+  }
+  .material-icons{
+    display: inline-block;
+    height: 3rem;
+    width: 3rem;
+    background-color: #495057;
+    color: #fff!important;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+    margin-right: 1rem;
+
+  }
+  mat-icon{
+    @include md-icon-size(32px);
+  }
+  
+      
+    
+  

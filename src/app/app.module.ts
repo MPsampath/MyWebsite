@@ -10,11 +10,14 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
+import { ResumesectionComponent } from './resumesection/resumesection.component';
+import {AngularFontAwesomeModule} from 'angular-font-awesome';
 
 @NgModule({
   declarations: [
     AppComponent,
     SideNavComponent,
+    ResumesectionComponent,
   ],
   imports: [
     BrowserModule,
@@ -24,7 +27,8 @@ import { MatListModule } from '@angular/material/list';
     MatButtonModule,
     MatSidenavModule,
     MatIconModule,
-    MatListModule
+    MatListModule,
+    AngularFontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
